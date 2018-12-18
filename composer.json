@@ -1,0 +1,31 @@
+{
+    "name": "nguyenanhung/project-website-tung-van",
+    "description": "Project Website Tung Van",
+    "keywords": [
+        "corp",
+        "company",
+        "portal",
+        "profile",
+        "CodeIgniter"
+    ],
+    "type": "project",
+    "homepage": "https://github.com/nguyenanhung/project-website-tung-van",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Nguyen An Hung",
+            "email": "dev@nguyenanhung.com",
+            "homepage": "http://www.nguyenanhung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.23",
+        "curl/curl": "^1.9",
+        "cocur/slugify": "^3.1",
+        "hashids/hashids": "^2.0",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "nguyenanhung/vn-telco-phonenumber": "^1.0",
+        "google/recaptcha": "^1.1"
+    }
+}

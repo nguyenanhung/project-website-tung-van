@@ -1,0 +1,294 @@
+/*!
+  Template: 404 Sailor
+  Version: 1.0
+  Author:	BernX
+
+  - General
+  - Button
+  - Illustration
+  -Water1 animation
+  -Water2 animation
+  -Boat animation
+*/
+
+/* General */
+* {
+  font-family: "Open Sans";
+}
+
+body {
+  background-color: #FEFEFE;
+  color: #262524;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  margin: 6px 0;
+}
+
+p {
+  margin: 6px 0;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 150px;
+  color: #44A2E2;
+  line-height: 150px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+/* Button */
+.btn-action {
+  background-color: #44A2E2;
+  color: #FEFEFE !important;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 20px 60px;
+}
+
+.btn-action:hover {
+  background-color: #458CBD;
+}
+
+/* Illustration */
+.illustration {
+  position: relative;
+  width: 876px;
+  height: 394px;
+  background-size: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+.illustration .boat {
+  background: url(../img/boat.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  width: 682px;
+  height: 373px;
+  left: 50px;
+  bottom: 19px;
+  -moz-animation: 4s ease 0s normal none infinite shake;
+  -moz-transform-origin: center bottom;
+  -webkit-animation: shake 4s infinite ease-in-out;
+  -webkit-transform-origin: center bottom;
+  -o-animation: 4s ease 0s normal none infinite shake;
+  -o-transform-origin: center bottom;
+  -o-animation: shake 4s infinite ease-in-out;
+  -o-transform-origin: center bottom;
+  -ms-animation: 4s ease 0s normal none infinite shake;
+  -ms-transform-origin: center bottom;
+  -ms-animation: shake 4s infinite ease-in-out;
+  -ms-transform-origin: center bottom;
+  animation: 4s ease 0s normal none infinite shake;
+  transform-origin: center bottom;
+  animation: shake 4s infinite ease-in-out;
+  transform-origin: center bottom;
+}
+.illustration .water1 {
+  background: url(../img/water1.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  width: 876px;
+  height: 64px;
+  bottom: 60px;
+  -webkit-animation: water1 2s infinite linear;
+  -moz-animation: water1 2s infinite linear;
+  -ms-animation: water1 2s infinite linear;
+  -o-animation: water1 2s infinite linear;
+  animation: water1 2s infinite linear;
+}
+.illustration .water2 {
+  background: url(../img/water2.png) no-repeat;
+  background-size: 100%;
+  position: absolute;
+  width: 876px;
+  height: 111px;
+  bottom: 0;
+  -webkit-animation: water2 2s infinite linear;
+  -ms-animation: water2 2s infinite linear;
+  -moz-animation: water2 2s infinite linear;
+  -o-animation: water2 2s infinite linear;
+  animation: water2 2s infinite linear;
+}
+
+/* Water1 animation */
+@-webkit-keyframes water1 {
+  0% {
+    -webkit-transform: translate(0, 5px);
+  }
+  50% {
+    -webkit-transform: translate(0, -5px);
+  }
+  100% {
+    -webkit-transform: translate(0, 5px);
+  }
+}
+@-moz-keyframes water1 {
+  0% {
+    -moz-transform: translate(0, 5px);
+  }
+  50% {
+    -moz-transform: translate(0, -5px);
+  }
+  100% {
+    -moz-transform: translate(0, 5px);
+  }
+}
+@-ms-keyframes water1 {
+  0% {
+    -ms-transform: translate(0, 5px);
+  }
+  50% {
+    -ms-transform: translate(0, -5px);
+  }
+  100% {
+    -ms-transform: translate(0, 5px);
+  }
+}
+@-o-keyframes water1 {
+  0% {
+    -o-transform: translate(0, 5px);
+  }
+  50% {
+    -o-transform: translate(0, -5px);
+  }
+  100% {
+    -o-transform: translate(0, 5px);
+  }
+}
+@keyframes water1 {
+  0% {
+    transform: translate(0, 5px);
+  }
+  50% {
+    transform: translate(0, -5px);
+  }
+  100% {
+    transform: translate(0, 5px);
+  }
+}
+/* Water2 animation */
+@-webkit-keyframes water2 {
+  0% {
+    -webkit-transform: translate(0, -5px);
+  }
+  50% {
+    -webkit-transform: translate(0, 0px);
+  }
+  100% {
+    -webkit-transform: translate(0, -5px);
+  }
+}
+@-moz-keyframes water2 {
+  0% {
+    -moz-transform: translate(0, -5px);
+  }
+  50% {
+    -moz-transform: translate(0, 0px);
+  }
+  100% {
+    -moz-transform: translate(0, -5px);
+  }
+}
+@-ms-keyframes water2 {
+  0% {
+    -ms-transform: translate(0, -5px);
+  }
+  50% {
+    -ms-transform: translate(0, 0px);
+  }
+  100% {
+    -ms-transform: translate(0, -5px);
+  }
+}
+@-o-keyframes water2 {
+  0% {
+    -o-transform: translate(0, -5px);
+  }
+  50% {
+    -o-transform: translate(0, 0px);
+  }
+  100% {
+    -o-transform: translate(0, -5px);
+  }
+}
+@keyframes water2 {
+  0% {
+    transform: translate(0, -5px);
+  }
+  50% {
+    transform: translate(0, 0px);
+  }
+  100% {
+    transform: translate(0, -5px);
+  }
+}
+/* Boat animation */
+@-moz-keyframes shake {
+  0% {
+    -moz-transform: rotate(-2deg);
+  }
+  50% {
+    -moz-transform: rotate(2deg);
+  }
+  100% {
+    -moz-transform: rotate(-2deg);
+  }
+}
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: rotate(-2deg);
+  }
+  50% {
+    -webkit-transform: rotate(2deg);
+  }
+  100% {
+    -webkit-transform: rotate(-2deg);
+  }
+}
+@-o-keyframes shake {
+  0% {
+    -o-transform: rotate(-2deg);
+  }
+  50% {
+    -o-transform: rotate(2deg);
+  }
+  100% {
+    -o-transform: rotate(-2deg);
+  }
+}
+@-ms-keyframes shake {
+  0% {
+    -ms-transform: rotate(-2deg);
+  }
+  50% {
+    -ms-transform: rotate(2deg);
+  }
+  100% {
+    -ms-transform: rotate(-2deg);
+  }
+}
+@keyframes shake {
+  0% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}

@@ -1,0 +1,3 @@
+RewriteEngine On
+Options -Indexes
+AddType text/plain php3 php4 php5 php cgi asp aspx html css js

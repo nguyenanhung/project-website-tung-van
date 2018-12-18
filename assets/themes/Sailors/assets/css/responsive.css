@@ -1,0 +1,173 @@
+/* max-width: 1920px */
+@media (max-width: 1920px) {
+  body {
+    font-size: 19.2px;
+  }
+
+  h1, h2, p {
+    margin: 4.8px;
+  }
+
+  h1 {
+    font-size: 120px;
+    line-height: 120px;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+
+  .btn-action {
+    padding: 16px 48px;
+    font-size: 19.2px;
+  }
+
+  section {
+    margin-bottom: 48px;
+  }
+
+  .illustration {
+    width: 700.8px;
+    height: 315.2px;
+  }
+  .illustration .boat {
+    width: 545.6px;
+    height: 298.4px;
+    left: 40px;
+    bottom: 15.2px;
+  }
+  .illustration .water1 {
+    width: 700.8px;
+    height: 51.2px;
+    bottom: 48px;
+  }
+  .illustration .water2 {
+    width: 700.8px;
+    height: 88.8px;
+  }
+}
+/* max-width: 1366px */
+@media (max-width: 1440px) {
+  body {
+    font-size: 14.4px;
+  }
+
+  h1, h2, p {
+    margin: 3.6px;
+  }
+
+  h1 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .btn-action {
+    padding: 16px 36px;
+    font-size: 14.4px;
+  }
+
+  section {
+    margin-bottom: 36px;
+  }
+
+  .illustration {
+    width: 525.6px;
+    height: 236.4px;
+  }
+  .illustration .boat {
+    width: 409.2px;
+    height: 223.8px;
+    left: 30px;
+    bottom: 11.4px;
+  }
+  .illustration .water1 {
+    width: 525.6px;
+    height: 38.4px;
+    bottom: 36px;
+  }
+  .illustration .water2 {
+    width: 525.6px;
+    height: 66.6px;
+  }
+}
+/* max-width: 768px */
+@media (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+
+  h1, h2, p {
+    margin: 3px;
+  }
+
+  h1 {
+    font-size: 75px;
+    line-height: 75px;
+  }
+
+  h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .btn-action {
+    padding: 16px 30px;
+    font-size: 12px;
+  }
+
+  section {
+    margin-bottom: 30px;
+  }
+
+  .illustration {
+    width: 438px;
+    height: 197px;
+  }
+  .illustration .boat {
+    width: 341px;
+    height: 186.5px;
+    left: 25px;
+    bottom: 9.5px;
+  }
+  .illustration .water1 {
+    width: 438px;
+    height: 32px;
+    bottom: 30px;
+  }
+  .illustration .water2 {
+    width: 438px;
+    height: 55.5px;
+  }
+}
+/* max-width: 468px */
+@media (max-width: 468px) {
+  section {
+    margin-bottom: 18px;
+  }
+
+  .illustration {
+    width: 262.8px;
+    height: 118.2px;
+  }
+  .illustration .boat {
+    width: 204.6px;
+    height: 111.9px;
+    left: 15px;
+    bottom: 5.7px;
+  }
+  .illustration .water1 {
+    width: 262.8px;
+    height: 19.2px;
+    bottom: 18px;
+  }
+  .illustration .water2 {
+    width: 262.8px;
+    height: 33.3px;
+  }
+}
