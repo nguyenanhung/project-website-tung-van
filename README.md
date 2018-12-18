@@ -2,6 +2,8 @@
 
 Một sản phẩm đánh giá năng lực của các em thực tập sinh tại phòng kỹ thuật Trung tâm kinh doanh ThuDoMultimedia
 
+Sản phẩm được build từ Framework CodeIgniter version 3.1.8, tích hợp HMVC 
+
 Link Demo: http://pkd.gviet.vn/tungvan/
 
 ### Sreenshots
