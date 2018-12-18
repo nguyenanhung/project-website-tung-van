@@ -17,8 +17,8 @@ Xem thêm tại đây: https://github.com/nguyenanhung/project-website-tung-van/
 
 Sản phẩm được phát triển bởi các thành viên dưới đây
 
-| STT  | Họ tên        | SĐT          | Email                  |
-| ---- | ------------- | ------------ | ---------------------- |
-| 1    | Đặng Thị Thảo | 0965 174 397 | thaochan5197@gmail.com |
-| 2    | Hồ Thị Minh Nguyệt | 0971 010 875 | honguyet0897.utc@gmail.com |
-| 3    | Hoàng Thị Liên | 0971 006 294 | hoanglien1201@gmail.com |
+| STT  | Họ tên        | SĐT          | Email                  | Skype             |
+| ---- | ------------- | ------------ | ---------------------- | ----------------- |
+| 1    | Đặng Thị Thảo | 0965 174 397 | thaochan5197@gmail.com | ... |
+| 2    | Hồ Thị Minh Nguyệt | 0971 010 875 | honguyet0897.utc@gmail.com | ... |
+| 3    | Hoàng Thị Liên | 0971 006 294 | hoanglien1201@gmail.com | ...|
