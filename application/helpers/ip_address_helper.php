@@ -11,6 +11,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 if (!function_exists('get_ip_address'))
 {
+    /**
+     * Function get_ip_address
+     *
+     * @author: 713uk13m <dev@nguyenanhung.com>
+     * @time  : 2018-12-28 11:18
+     *
+     * @param bool $convertToInteger
+     *
+     * @return array|false|string
+     */
     function get_ip_address($convertToInteger = false)
     {
         $ip = '';
