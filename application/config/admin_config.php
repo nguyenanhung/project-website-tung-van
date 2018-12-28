@@ -7,10 +7,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * Time: 10:46 AM
  */
 $config['authentication'] = array(
-    'username' => 'hungna',
-    'password' => 'C777812982FACDA9AD7A289E17BFF'
+    'username' => 'xxx',
+    'password' => 'xxx'
 );
 $config['mantis']         = array(
-    'projectId' => 61,
-    'username' => 'hungna'
+    'projectId' => 'xxx',
+    'username'  => 'xxx'
 );
